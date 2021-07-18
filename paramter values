@@ -1,0 +1,20 @@
+% We suggest the following parameter values to reproduct most of the 
+% experimental results of MLLCAS, by tuning the parameters a better performance will be obtained 
+% where λ1 controls the sparsity of the label-specific features, λ2 controls
+% the consistency between original label vectors and the recovered label vectors, λ3 controls the label 
+% relations and locality of data
+% -------------------------------------------------------------------------
+% Parameters        : λ1,   λ2,   λ3,  rho
+% -------------------------------------------------------------------------
+% Cal500            : 10^-5, 10^2, 10^-4, 1
+% rcv1subset1       : 10^-4, 10^2, 10^-3, 8 
+% rcv1subset2       : 10^-5, 10^2, 10^-3, 4
+% rcv1subset3       : 10^-3, 10^2, 10^-3, 4
+% medical           : 10^-3, 10^2, 10^-3, 1
+% genbase           : 10^-3, 10^2, 10^-4, 1
+% stackex-chess     : 10^-5, 10^2, 10^-3, 2
+% stackex-chemistry : 10^-5, 10^2, 10^-3, 8
+% stackex-cs        : 10^-4, 10^2, 10^-3, 4
+% stackex-philosophy: 10^-5, 10^2, 10^-3, 4
+% -------------------------------------------------------------------------
+% =======================================================================================
